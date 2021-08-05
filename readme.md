@@ -12,3 +12,6 @@ Requirements:
 Concept: 
 - Creating an application that show an array of designer publications
 - Each publication comes with information: designer, published date, teaser images (optional)
+
+Questions: 
+- How does seed.sql work? Is it possible to use a function with seedPublications.js data in the syncAndSeed function?
