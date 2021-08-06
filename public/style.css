@@ -1,9 +1,9 @@
 .publication-preview {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   text-align: center;
-  border: 1px solid black;
-  padding: 10px;
 }
 
 .single-publication {
@@ -33,6 +33,10 @@ a {
 }
 
 img {
-  height: 35%;
+  height: 30%;
   width: auto;
 }
+
+li {
+  padding-bottom: 1px;
+} 
